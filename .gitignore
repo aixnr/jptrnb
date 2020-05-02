@@ -1,0 +1,4 @@
+# Ignore these
+_ipynb_checkpoints
+notebooks/store
+*.png
