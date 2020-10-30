@@ -11,3 +11,4 @@ Collection of Jupyter Notebooks. Here is the list of notebooks currently in this
 | Qual Exam Stat | Basically, how to use `ax.twinx()` to plot a dual-axis plot.
 | Scatterplot Random Example | How to use `np.random.normal()`. I think. Yeah that's it.
 | Stacked Bar Chart | Generate a stacked bar chart with either `ax.bar()` with `bottom` keyword argument, or perhaps a slightly less painful way with `df.pivot().loc[].plot(kind = bar, stacked = True)`. Also featuring `stack_print_number()` function.
+| Flow Cytometry and Lognormal Dist | Notebook created to illustrate flow cytometry plot, how to generate lognormal dist, using python decorator, and using `ScalarFormatter()`.
