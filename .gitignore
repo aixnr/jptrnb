@@ -2,3 +2,5 @@
 _ipynb_checkpoints
 notebooks/store
 *.png
+__pycache__
+
