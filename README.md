@@ -10,6 +10,8 @@ Collection of Jupyter Notebooks. Here is the list of notebooks currently in this
 | Project - Dr. STONE | Please refer to [Dr. STONE Text Mining Project](https://meta.caspershire.net/dr-stone-text-mining-project/) on Caspershire Meta.
 | Qual Exam Stat | Basically, how to use `ax.twinx()` to plot a dual-axis plot.
 | Scatterplot Random Example | How to use `np.random.normal()`. I think. Yeah that's it.
-| Stacked Bar Chart | Generate a stacked bar chart with either `ax.bar()` with `bottom` keyword argument, or perhaps a slightly less painful way with `df.pivot().loc[].plot(kind = bar, stacked = True)`. Also featuring `stack_print_number()` function.
+| Stacked Bar Chart | Generate a stacked bar chart with either `ax.bar()` with `bottom` keyword argument, or perhaps a slightly less painful way with `df.pivot().loc[].plot(kind=bar, stacked=True)`. Also featuring `stack_print_number()` function and looping with `lambda` for fun and profit.
 | Flow Cytometry and Lognormal Dist | Notebook created to illustrate flow cytometry plot, how to generate lognormal dist, using python decorator, and using `ScalarFormatter()`.
 | PCA with scikit-learn | Using `sklearn` library to perform PCA computation. Includes plotting a chart to show percent cumulative variance for all the PC, and a plot showing contributions of each feature to each PC.
+| Custom Color Palette | My way of defining custom color palette with `dict`, using a function that would either return a `dict` or draw an example plot that can be later consumed by `matplotlib` or `seaborn`.
+| Accessing and Reshaping | On using accessors on a Pandas DataFrame (`.loc[]`, `.iloc[]`, `.at[]`, `.iat[]`). Also, a quick note on using `numpy.where()` to change range of values in specified columns.
