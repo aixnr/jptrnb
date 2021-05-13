@@ -15,3 +15,4 @@ Collection of Jupyter Notebooks. Here is the list of notebooks currently in this
 | PCA with scikit-learn | Using `sklearn` library to perform PCA computation. Includes plotting a chart to show percent cumulative variance for all the PC, and a plot showing contributions of each feature to each PC.
 | Custom Color Palette | My way of defining custom color palette with `dict`, using a function that would either return a `dict` or draw an example plot that can be later consumed by `matplotlib` or `seaborn`.
 | Accessing and Reshaping | On using accessors on a Pandas DataFrame (`.loc[]`, `.iloc[]`, `.at[]`, `.iat[]`). Also, a quick note on using `numpy.where()` to change range of values in specified columns.
+| Manual Jittering | Instead of using `sns.stripplot()` or `sns.swarmplot()`, I decided to jitter the points myself.
